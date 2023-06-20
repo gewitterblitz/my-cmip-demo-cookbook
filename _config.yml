@@ -17,7 +17,7 @@ tags:
 
 execute:
   # To execute notebooks via a Binder instead, replace 'cache' with 'binder'
-  execute_notebooks: cache
+  execute_notebooks: binder #cache
   timeout: 600
   allow_errors: False # cells with expected failures must set the `raises-exception` cell tag
 
@@ -44,7 +44,7 @@ sphinx:
     html_permalinks_icon: '<i class="fas fa-link"></i>'
     html_theme_options:
       home_page_in_toc: true
-      repository_url: https://github.com/gewitterblitz/my-cmip-demo-notebook/ # Online location of your book
+      repository_url: https://github.com/gewitterblitz/my-cmip-demo-cookbook/ # Online location of your book
       repository_branch: main # Which branch of the repository should be used when creating links (optional)
       use_issues_button: true
       use_repository_button: true
